@@ -2,13 +2,10 @@
   "private": true,
   "name": "l2r",
   "description": "",
-  "scripts": {
-    "start": "micro index.js"
-  },
   "license": "MIT",
   "dependencies": {
     "got": "^10.7.0",
-    "micro": "^9.3.4",
+    "now": "^18.0.0",
     "rss": "^1.2.2"
   }
 }

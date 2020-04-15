@@ -17,5 +17,6 @@ module.exports = async (req, res) => {
       })
     }
   })
-  res.end(feed.xml())
+  res.setHeader('Content-Type', 'text/xml')
+  res.status(200).send(feed.xml())
 }
