@@ -1,0 +1,20 @@
+{
+  "name": "l2r",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/e-jigsaw/l2r.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-jigsaw/l2r/issues"
+  },
+  "homepage": "https://github.com/e-jigsaw/l2r#readme"
+}
