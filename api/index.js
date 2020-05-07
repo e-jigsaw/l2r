@@ -8,11 +8,11 @@ module.exports = async (req, res) => {
     title: 'last.fm'
   })
   tracks.map(track => {
-    if (track.date && track.mbid) {
+    if (track.date) {
       feed.item({
         title: `${track.name} | ${track.artist['#text']}`,
         url: track.url,
-        guid: track.mbid,
+        guid: track.date.uts,
         date: new Date(track.date.uts * 1000)
       })
     }
