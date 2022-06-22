@@ -4,7 +4,7 @@
   "description": "",
   "license": "MIT",
   "dependencies": {
-    "got": "^10.7.0",
+    "got": "^11.8.5",
     "now": "^18.0.0",
     "rss": "^1.2.2"
   }
